@@ -57,7 +57,6 @@ pip install pytest && pytest -q
 - **Hierarquia estrita**: nenhum pedido tem dois status; o estado físico vale mais que o financeiro, exceto quando conflitam, o que ganha status próprio.
 - **Qualidade de dado exposta**: taxas sem cadastro têm saída própria.
 - **Dataflows em camadas**: a lógica específica de cada fonte fica na camada de canal; o motor não sabe de onde veio o número.
-- **Caminho de migração**: o motor foi reconstruído em um dataflow de teste na Gen2, enquanto a produção roda em Gen1.
 
 <!-- RESULTADOS: incluir depois (valor recuperado, horas economizadas, % de pedidos classificados automaticamente, tempo de refresh antes/depois). -->
 
